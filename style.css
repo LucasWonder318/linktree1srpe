@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {background-color: #f3e9cb;}
+
+
+
+#logo{
+    height: auto;
+    max-width: 50%;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 15pt;
+}
+
+/* .footerItens{
+    margin: auto;
+    line-height: 1.5;
+    font-size: 12pt; 
+    text-align: center;
+} */
+
+
+
+.aClick {
+
+    color: #4D2933;
+    text-decoration: none !important;
+
+    /*size*/
+    font-size: 12pt !important;
+
+}
+
+.aClickInstitucional {
+
+    color: #562430;
+
+    text-decoration: none !important;
+
+    /*size*/
+    font-size: 11pt !important;
+
+}
+
+.aClickService{
+    color: #e9ca7c;
+    margin: 0px;
+    text-decoration: none !important;
+    
+    /*size*/
+    font-size: 12pt !important;
+}
+
+.buttonClick {
+
+    /*border*/
+    background-color: #e9ca7c;
+    border-radius: 5px;
+
+    border: none;
+    /*size*/
+    margin: 10px;
+    width: 300px !important;
+    height: 50px !important;
+    
+}
+
+.buttonClick:hover {
+
+    /*border*/
+    background-color: #e9ca7c;
+    border-style: solid;
+    border-color: #562430;
+    border-width: 0px 0px 0px 5px;
+    font-weight: bold;
+
+    /*size*/
+    margin: 10px;
+    width: 300px !important;
+    height: 50px !important;
+}
+
+.buttonClickInstitucional{
+    /*border*/
+    background-color: rgb(233, 202, 124);
+    border-width: 4px;
+    border-radius: 5px;
+    border-color: #e9ca7c;
+    border-style: solid;
+    /*size*/
+    margin: 10px;
+    width: 300px !important;
+    height: 50px !important;
+}
+
+
+
+
+.buttonClickService{
+    
+    background-color: #562430;
+    border: none;
+    /*size*/
+    margin: 10px;
+    width: 180px !important;
+    height: 50px !important;
+    transition-property: width;
+    transition-duration:  0.5s;
+    transition-delay: 0.5s;
+}
+
+.buttonClickService:hover{
+    
+    /*border*/
+    background-color: #562430;
+    border-width: 4px;
+    border-color: rgb(233, 202, 124);
+    border-width: 0px 0px 0px 5px;
+
+    border-style: solid;
+    /*size*/
+    margin: 10px;
+    width: 230px !important;
+    height: 50px !important;
+}
+
+
+@media  (min-width: 768px) {
+
+    
+}
